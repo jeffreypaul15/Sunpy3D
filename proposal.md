@@ -271,7 +271,7 @@ No, I will only be applying to SunPy.
 
 I study at university but it takes about 7-8 hours of my day and my academic load is very less.
 I am open to working full time **~40 hours per week** and if required can work more if required.
-I don't have any plans for the Summer and I will be fully focusing on GSoc with SunPy.
+I don't have any plans for the Summer and I will be fully focusing on GSoC with SunPy.
 
  
 ### Eligibility
