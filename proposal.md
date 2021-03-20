@@ -198,8 +198,10 @@ ___
   
 
 - By this week, I shall fully dedicate time to recreate the major 2D plotting functionalities in 3D if not already created. These are the most used ones in SunPy and extra care shall be taken while implementing the basic `GenericMap` extensions if not already implemented by now.
-- I have implemented a few 2D plotting functionalities such as `draw_grid`
-![image](https://user-images.githubusercontent.com/50923538/111678300-22ed5700-8846-11eb-9306-27b763a70e7d.png)
+- I have implemented a few 2D plotting functionalities such as `draw_grid` and `draw_limb`.
+![image](https://user-images.githubusercontent.com/50923538/111870574-82b14280-89ab-11eb-9634-986d2c1bfaad.png)
+![image](https://user-images.githubusercontent.com/50923538/111870524-48e03c00-89ab-11eb-8f03-84914f7940a4.png)
+
 
 - The tox environment shall be completely set up and all the Pytests shall be integrated accordingly.
 - From here I shall set up Sphinx with the themes in accordance with SunPy's standards and conduct a manual test of the documentation of the package so far. I shall continue working on the documentation alongside the code as this would ensure accurate documentation of all the required classes and methods.
