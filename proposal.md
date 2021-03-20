@@ -183,7 +183,6 @@ ___
 - This week I shall begin with writing the documentation of the correctly implemented methods according to the evaluation. I shall set up `Sphinx` and work towards writing clean and efficient documentation.
 - The examples of all the created methods shall be loaded into a gallery and using Sphinx and create a `minigallery` for display in the documentation as well.
 - The required 3D testing methodology would have been extensively researched upon and a solid conclusion would have to be reached as to how to go about 3D testing with PyVista.
-- 
 - After basic documentation is set up I shall also allot some time for bugfixes of any major bugs that may arise during the implementation of the 3D plotting as well as the testing and documentation structure.
 - I shall also continue setting up CircleCI and have it perform the required tests for this package.
 - The number of tests to run shall be decided after discussing with the mentors.
