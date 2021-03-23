@@ -212,6 +212,9 @@ ___
 #### Week 9 - Week 10
 
 - I shall use this week to cross-check if all the implemented functionalities are what is required for the project. This will ensure I have worked towards implementing all of required the `sources` from SunPy and overplotting them with the required `field lines` from PfssPy.
+- I have already implemented code for plotting field lines from a given `gong_map` [here](https://github.com/jeffreypaul15/Sunpy3D/blob/master/pfss.py)
+![image](https://user-images.githubusercontent.com/50923538/112165572-dffbfc80-8c14-11eb-9dd9-9eb3937607fa.png)
+
 - By now all of the required coordinate objects from Astropy and 2D functionality from SunPy shall be properly implemented with the appropriate tests.
 - If any new requirements are requested by the mentors, they shall be implemented during these weeks and the testing of the new code as well.
 - The documentation and docstrings shall again be tested with the complete implementation of all the `.rst` files and indexed according to what is required.
