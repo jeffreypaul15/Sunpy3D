@@ -122,6 +122,7 @@ ___
 - Get started on working with the code documentation of the existing code. I have already gotten started on writing the docstrings and examples for plotting here.
 - Begin with the setting up of documentation via Sphinx and gain information regarding the types of testing that are required.
 - I shall also begin work on setting up the project for packaging.
+- As `PyVista` has no existing figure testing methodology, I shall perform figure testing by loading the 3D plot in 2D through `matplotlib` and then running `Pytest-mpl` to perform figure comparisons.
 
   
 
