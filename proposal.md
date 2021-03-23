@@ -122,7 +122,7 @@ ___
 - Get started on working with the code documentation of the existing code. I have already gotten started on writing the docstrings and examples for plotting here.
 - Begin with the setting up of documentation via Sphinx and gain information regarding the types of testing that are required.
 - I shall also begin work on setting up the project for packaging.
-- As `PyVista` has no existing figure testing methodology, I shall perform figure testing by loading the 3D plot in 2D through `matplotlib` and then running `Pytest-mpl` to perform figure comparisons.
+
 
   
 
@@ -146,7 +146,7 @@ ___
   
 
 - First few days of this week shall go into implementing the tox environment with the set up of PyTest and Tox for unit testing.
-- I shall display the required plot from 3D and save this image through `matplotlib` and thereby integrate it with `pytest-mpl`.
+- As `PyVista` has no existing figure testing methodology, I shall perform figure testing by loading the 3D plot in 2D through `matplotlib` and then running `Pytest-mpl` to perform figure comparisons.
 - Next, I shall begin work on structuring the appropriate classes for the package as plots from SunPy as well as PfssPy have to be recreated in 3D and this would require writing new code for the appropriate 2D transformations in 3D. Some of the extra functionality would have to be vectored into the new package.
 - I shall begin work on setting up CircleCI for this project, the configuration files would have to be set up accordingly with Tox and `pytest-mpl`.
 
