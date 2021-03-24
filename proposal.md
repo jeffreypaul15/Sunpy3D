@@ -156,8 +156,7 @@ ___
 
 - By this week, I shall fully dedicate time to recreate the major 2D plotting from SunPy and extra care shall be taken while implementing the basic `GenericMap` extensions if not already implemented by now.
 - I have implemented a few 2D plotting functionalities such as `draw_grid` and `draw_limb`.
-![image](https://user-images.githubusercontent.com/50923538/111870574-82b14280-89ab-11eb-9634-986d2c1bfaad.png)
-![image](https://user-images.githubusercontent.com/50923538/111870524-48e03c00-89ab-11eb-8f03-84914f7940a4.png)
+![image](https://user-images.githubusercontent.com/50923538/112277482-cce63c80-8ca7-11eb-8163-35adaa2b8830.png)
 - The `Tox` environment shall be completely set up and all the Pytests shall be integrated accordingly.
 - Conduct a manual test of the documentation of the package so far and continue working on the documentation alongside the code ensuring accurate documentation.
 - All added code shall be tested on CircleCI to ensure all the tests are passed before merging with the `master` branch of the new package.
