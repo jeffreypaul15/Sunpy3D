@@ -116,13 +116,13 @@ ___
 - Ensuring the extensions are done appropriately with careful comparison from the 2D plots and appropriate tests.
 - Research on grid plotting with `WCS axes` in 3D and also research on `clip_interval` of for `vmin/vmax` set-up of the required 3D plots.
 - Implementation the plotting coordinates of various `Astropy` units and also drawing of `Great Arc` and `heliographic longitude and latitude lines` in 3D.
-- Recreate `ArrayAnimator` as `gifs` with `PyVista` 
+- Recreate `MapSequenceAnimator` as `gifs` with `PyVista` 
 
   
 #### Week 5
 
 - This entire week I shall ensure that the above listed deliverables from week 1-4 are correctly set up.
-- Continue working on the extension `ArrayAnimator` to `3D gifs`.
+- Continue working on the extension `MapSequenceAnimator` to `3D gifs`.
 - All the written tests up till now are accurate and ensure proper testing of the plots and other methods.
 - Ensuring the docstrings of the existing and implemented functions are properly set up for Sphinx's autodoc.
 - CircleCI and the tox environment set up should have begun and would continue to set it up according to requirements.
