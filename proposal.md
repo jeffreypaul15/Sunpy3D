@@ -22,7 +22,8 @@ I have been involved with contributing towards and understanding SunPy with its 
 
 SunPy has multiple extensive 2D visualization features for plotting Maps. The ability to have to convert these plots into 3D would enhance the capabilities of SunPy visualization.
 
-This project would include adding a separate python package that extends 3D plotting functionality to SunPy, by using **PyVista**. It would also recreate some of the various existing features and overlays that SunPy's GenericMap has in 3D.
+This project would include adding a separate python package that extends 3D plotting functionality to SunPy, by using **PyVista**. It would also recreate some of the various existing features and overlays that SunPy's GenericMap has in 3D. 
+I shall also maintain a blog based on my open-source journey and this project with SunPy.
 
 The entire project is split into 3 major components which include:-
 
@@ -188,6 +189,7 @@ ___
 - Email ID: [jeffrey.paul2000@gmail.com](jeffrey.paul2000@gmail.com)
 - GitHub handle: [jeffreypaul15](https://github.com/jeffreypaul15)
 - Riot-ID: @jeffreypaul15:matrix.org
+- Blog: [jeffrey.paul2000](https://medium.com/@jeffrey.paul2000)
 - Location: Bangalore, India.
 
 ### Education
