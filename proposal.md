@@ -222,7 +222,7 @@ No, I will only be applying to SunPy.
 ### Commitments
 
 I study at university which takes about 7-8 hours of my day and my academic load is very less.
-I am open to working full time **~25-30 hours per week** and can work more if required.
+I am open to working full time **~25 hours per week** and can work more if required.
 I don't have any plans for the Summer and I will be fully focusing on contribution and GSoC with SunPy.
 
  
