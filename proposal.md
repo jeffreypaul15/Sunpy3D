@@ -189,7 +189,7 @@ ___
 - Email ID: [jeffrey.paul2000@gmail.com](jeffrey.paul2000@gmail.com)
 - GitHub handle: [jeffreypaul15](https://github.com/jeffreypaul15)
 - Riot-ID: @jeffreypaul15:matrix.org
-- Blog: [jeffrey.paul2000](https://medium.com/@jeffrey.paul2000)
+- Blog: [jeffrey.paul2000](https://jeffrey-paul2000.medium.com/)
 - Location: Bangalore, India.
 
 ### Education
