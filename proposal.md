@@ -198,7 +198,7 @@ ___
 ### Open Source background and Programming experience
 
 - Programming Languages: Python, Java, C, JavaScript, Dart (Basic)
-- My Contributions to SunPy include 7 merged and 3 WIP repositories and some important ones are :
+- My Contributions to SunPy include 9 merged and 3 WIP repositories and some important ones are :
 -  [Added draw_quadrangle method](https://github.com/sunpy/sunpy/pull/4809) [visualization]
 -  [Added STEREO/SECCHI client](https://github.com/sunpy/sunpy/pull/4869)
 -  [Added dynamic z axis option](https://github.com/sunpy/sunpy/pull/5025) [visualization]
