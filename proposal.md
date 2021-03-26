@@ -54,7 +54,6 @@ The entire project is split into 3 major components which include:-
 - The entire project shall be tested efficiently wherever necessary.
 - Testing shall mainly be performed with **Tox** integrated with Pytest. The project shall be set up using tox according to SunPy's requirements.
 - The appropriate 3D testing methodology shall also be researched and decided on.
-- CircleCI shall also be implemented to handle cloud-based testing.
 - Once tested, benchmark tests shall also be performed to understand the computation required for vizualisation.
 
   
@@ -108,7 +107,7 @@ ___
 - I shall also dedicate some time to research more on the 3D figure testing methodlogy.
 - Next, I shall work on structuring the appropriate classes for the package as plots from SunPy as well as PfssPy. 
 - The new classes have to be recreated for 3D and this would require vectoring existing code into the new package.
-- I shall begin work on setting up CircleCI for this project, the configuration files would have to be set up accordingly with Tox and `pytest-mpl`.
+- I shall begin work on configuring Tox with `pytest-mpl` for figure testing.
 
 
 #### Week 4
@@ -126,7 +125,7 @@ ___
 - Continue working on the extension `MapSequenceAnimator` to `3D gifs`.
 - All the written tests up till now are accurate and ensure proper testing of the plots and other methods.
 - Ensuring the docstrings of the existing and implemented functions are properly set up for Sphinx's autodoc.
-- CircleCI and the tox environment set up should have begun and would continue to set it up according to requirements.
+- The tox environment set up should have begun and would continue to set it up according to requirements.
 
 ___
 
@@ -140,7 +139,6 @@ ___
 
   
 - Begin the writing the documentation of the correctly implemented methods according to the evaluation. 
-- I shall finish the CircleCI set up and have it perform the required tests for this package.
 - Continue the set up of `Sphinx` and work towards writing clean and efficient documentation.
 - The examples of all the created methods shall be loaded into a gallery for Sphinx to create a `minigallery` for display in the documentation.
 - The required 3D testing methodology would have been extensively researched upon and a solid conclusion would be reached.
@@ -160,7 +158,6 @@ ___
 ![image](https://user-images.githubusercontent.com/50923538/112277482-cce63c80-8ca7-11eb-8163-35adaa2b8830.png)
 - The `Tox` environment shall be completely set up and all the Pytests shall be integrated accordingly.
 - Conduct a manual test of the documentation of the package so far and continue working on the documentation alongside the code ensuring accurate documentation.
-- All added code shall be tested on CircleCI to ensure all the tests are passed before merging with the `master` branch of the new package.
 - Major bugs (if any) would be resolved by now and a considerable amount of time shall be devoted to testing all of the small implementations.
 
   
@@ -174,7 +171,7 @@ ___
 - By now all of the required coordinate objects from Astropy and 2D functionality from SunPy shall be properly implemented with the appropriate tests.
 - If any new requirements are requested by the mentors, they shall be implemented during these weeks and the testing of the new code as well.
 - The documentation and docstrings shall again be tested with the complete implementation of all the `.rst` files and indexed according to what is required.
-- If other tests have to be performed, I shall implement this on `CircleCI` and check for their passing before any merging is done as mentioned before.
+- If other tests have to be performed, I shall implement this during this time.
 - The entire package would have been set up in PyPi and a few demo examples would also be listed out here.
 ___
 
@@ -225,7 +222,7 @@ No, I will only be applying to SunPy.
 
 I study at university which takes about 7-8 hours of my day and my academic load is very less.
 
-I am open to working full time **~25 hours per week** and can work more if required.
+I am open to working full time **~18-20 hours per week** and can work more if required.
 
 I don't have any plans for the Summer and I will be fully focusing on contribution and GSoC with SunPy.
 
