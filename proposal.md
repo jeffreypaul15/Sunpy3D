@@ -145,6 +145,7 @@ ___
 - Allot some time for bugfixes of any major bugs that may arise during the implementation of the 3D plotting as well as the testing and documentation structure.
 - The number of tests to run shall be decided after discussing with the mentors.
 - Re-write any tests (if required) with the appropriate 3D testing method.
+- Work on rotating the initial 3D plot with understanding of cpos with `GenericMap` rotation.
 - Begin work on adding code for plotting AstroPy coordinate objects.
 
  
@@ -154,6 +155,7 @@ ___
   
 
 - By this week, I shall fully dedicate time to recreate the major 2D plotting from SunPy and extra care shall be taken while implementing the basic `GenericMap` extensions if not already implemented by now.
+- Work on extending methods involving creating `GenericMap` contours.
 - I have implemented a few 2D plotting functionalities such as `draw_grid` and `draw_limb`.
 ![image](https://user-images.githubusercontent.com/50923538/112277482-cce63c80-8ca7-11eb-8163-35adaa2b8830.png)
 - The `Tox` environment shall be completely set up and all the Pytests shall be integrated accordingly.
