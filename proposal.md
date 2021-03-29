@@ -1,4 +1,5 @@
 
+
 # Project: 3D Plotting
 
 ## Summary of proposal
@@ -59,23 +60,27 @@ The entire project is split into 3 major components which include:-
   
   
 
-### Timeline
+### Timeline and Weekly Deliverables
 
-___
+### Further understanding of the deliverables.
+
+![image](https://user-images.githubusercontent.com/50923538/112889241-03321a80-90f3-11eb-8f16-ad2f54b12b8d.png)
+
+
+
 
 #### Community Bonding Period
 
 ___
 
-  
-
-- I shall get familiar with the working of Sphinx and producing doctest with Sphinx, PyTest, and Tox.
-- Understand the main plot testing methodology. Currently, figure tests are performed through `pytest-mpl`. Either use a different figure testing methodology or test in accordance with the current figure testing method existing in SunPy which will be decided based on input from the mentors.
-- The existing code shall also be tested according to the various 3D plots on render. The plots shall be rendered using PyVista's show through Jupyter Notebook with the appropriate `cpos` location so the entire 3D plot is visible clearly from a 2D perspective especially for example plotting and testing.
-- I shall also spend time exploring the capabilities of 3D plotting and continuously add functionality such as the extension of plotting to `LASCO maps` and work on the exploration of magnetic field lines from `PfssPy`.
-
+#### Week 1  
+- I shall get familiar with the working of Sphinx and producing doctest with Sphinx,.
+- Understand the extent of PyVista's capabilities.
+- Rendering of the 3D plots correctly for generating 2D images.
+#### Week 2
+- Spend time exploring the capabilities of 3D plotting and continuously add functionality such as the extension of plotting to `LASCO maps` and work on the exploration of magnetic field lines from `PfssPy`.
 - I shall also get familiar with the possibility of extending most of the 2D plotting functionality to 3D from SunPy.
-
+	
 ___
 
 #### Coding Period Begins
@@ -84,96 +89,74 @@ ___
 
   
 
-#### Week 1
+#### Week 3
 
 - Get started on working with the code documentation of the existing code. I have already gotten started on writing the docstrings and examples for plotting here.
 - Begin with the setting up of documentation via Sphinx and gain information regarding the types of testing that are required.
-- Gain insight on the level of `PfssPy` extension to 3D.
-
-#### Week 2
-
-  
-
-- From here, I shall focus on the extension of the various 2D plotting functionalities into 3D from SunPy.
-- I have extended `draw_quadrangle` from SunPy's `GenericMap` to 3D as I had worked on implementing this in 2D for SunPy itself.
-![draw_quadrangle.png](https://github.com/jeffreypaul15/SunPy3D/blob/master/screenshots/draw_quadrangle.png?raw=true)
-- As `PyVista` has no existing figure testing methodology, I shall perform figure testing by loading the 3D plot in 2D through `matplotlib` and then running `Pytest-mpl` to perform figure comparisons.
-  
-#### Week 3
-
-  
-
-- First few days of this week shall go into implementing the tox environment with the set up of PyTest and Tox for unit testing.
-- I shall also dedicate some time to research more on the 3D figure testing methodlogy.
-- Next, I shall work on structuring the appropriate classes for the package as plots from SunPy as well as PfssPy. 
-- The new classes have to be recreated for 3D and this would require vectoring existing code into the new package.
-- I shall begin work on configuring Tox with `pytest-mpl` for figure testing.
-
+- Gain insight on the level of `PfssPy` extension to 3D and state deliverables with suggestions from mentors.
 
 #### Week 4
 
-- Continue working towards adding the existing methods of SunPy's `GenericMap` to 3D.
-- Ensuring the extensions are done appropriately with careful comparison from the 2D plots and appropriate tests.
-- Research on grid plotting with `WCS axes` in 3D and also research on `clip_interval` of for `vmin/vmax` set-up of the required 3D plots.
-- Implementation the plotting coordinates of various `Astropy` units and also drawing of `Great Arc` and `heliographic longitude and latitude lines` in 3D.
-- Recreate `MapSequenceAnimator` as `gifs` with `PyVista` 
-
+- From here on, I shall focus on the extension of the various 2D plotting functionalities into 3D from SunPy.
+- I have extended `draw_quadrangle` from SunPy's `GenericMap` to 3D as I had worked on implementing this in 2D for SunPy itself. An example of correctly rendered 2D plot with the right `cpos` :
+![draw_quadrangle.png](https://github.com/jeffreypaul15/SunPy3D/blob/master/screenshots/draw_quadrangle.png?raw=true)
+- Research on transformation of coordinate frames to correctly implement `GenericMaps` in 3D.
+- Decide on what classes to be vectored into this package from SunPy, AstroPy and PfssPy.
   
 #### Week 5
 
-- This entire week I shall ensure that the above listed deliverables from week 1-4 are correctly set up.
-- Continue working on the extension `MapSequenceAnimator` to `3D gifs`.
-- All the written tests up till now are accurate and ensure proper testing of the plots and other methods.
-- Ensuring the docstrings of the existing and implemented functions are properly set up for Sphinx's autodoc.
-- The tox environment set up should have begun and would continue to set it up according to requirements.
+- First few days of this week shall go into implementing the tox environment with the set up of PyTest and Tox for unit testing.
+- I shall also dedicate some time to research more on the 3D figure testing methodology.
+- Next, I shall work on structuring the appropriate classes for the package as plots from SunPy as well as PfssPy. 
+- The new classes have to be recreated for 3D and this would require vectoring existing code into the new package.
+- Begin 2D figure testing by rendering the 3D image in 2D and use `pytest-mpl` for figure testing 3D images in 2D. This will either be done by hashing or image comparison from PyTest-mpl.
 
-___
+#### Week 6
+
+- Continue working towards adding the existing methods of SunPy's `GenericMap` to 3D.
+- I have implemented a few 2D plotting functionalities such as `draw_grid` and `draw_limb`.
+![image](https://user-images.githubusercontent.com/50923538/112277482-cce63c80-8ca7-11eb-8163-35adaa2b8830.png)
+- Ensuring the extensions are done appropriately with careful comparison from the 2D plots and appropriate tests.
+- Research on grid plotting with `WCS axes` in 3D and also research on `clip_interval` of for `vmin/vmax` set-up of the required 3D plots.
+- Implementation the plotting coordinates of various `Astropy` units and also drawing of `Great Arc` and `heliographic longitude and latitude lines` in 3D.
+
+ ___
 
 #### Phase 1 Evaluation
 
 ___
 
-  
-
-#### Week 6 - Week 7
-
-  
+#### Week 7
+- This entire week I shall use as  buffer week, to ensure that the above listed deliverables from week 1-6 are correctly set up.
+- Continue working on the extension `MapSequenceAnimator` to `3D gifs`.
 - Begin the writing the documentation of the correctly implemented methods according to the evaluation. 
-- Continue the set up of `Sphinx` and work towards writing clean and efficient documentation.
 - The examples of all the created methods shall be loaded into a gallery for Sphinx to create a `minigallery` for display in the documentation.
 - The required 3D testing methodology would have been extensively researched upon and a solid conclusion would be reached.
-- Allot some time for bugfixes of any major bugs that may arise during the implementation of the 3D plotting as well as the testing and documentation structure.
+- Allot some time for bug-fixes of any major bugs that may arise during the implementation of the 3D plotting as well as the testing and documentation structure.
 - The number of tests to run shall be decided after discussing with the mentors.
-- Re-write any tests (if required) with the appropriate 3D testing method.
-- Work on rotating the initial 3D plot with understanding of cpos with `GenericMap` rotation.
-- Begin work on adding code for plotting AstroPy coordinate objects.
 
- 
 
 #### Week 8
+- Re-write any tests (if required) with the appropriate 3D testing method.
+- Over-plotting and aligning maps using transparency from `PyVista`.
+- Work on rotating the initial 3D plot with understanding of `cpos` with `GenericMap` rotation.
+- Begin work on adding code for plotting AstroPy coordinate objects.
+-  If other tests have to be performed, I shall implement this during this time.
+- - Recreate `MapSequenceAnimator` as `gifs` with `PyVista` 
 
-  
-
-- By this week, I shall fully dedicate time to recreate the major 2D plotting from SunPy and extra care shall be taken while implementing the basic `GenericMap` extensions if not already implemented by now.
-- Work on extending methods involving creating `GenericMap` contours.
-- I have implemented a few 2D plotting functionalities such as `draw_grid` and `draw_limb`.
-![image](https://user-images.githubusercontent.com/50923538/112277482-cce63c80-8ca7-11eb-8163-35adaa2b8830.png)
-- The `Tox` environment shall be completely set up and all the Pytests shall be integrated accordingly.
+#### Week 9
+- The `Tox` environment shall be completely set up and all the tests shall be integrated accordingly.
 - Conduct a manual test of the documentation of the package so far and continue working on the documentation alongside the code ensuring accurate documentation.
 - Major bugs (if any) would be resolved by now and a considerable amount of time shall be devoted to testing all of the small implementations.
-
-  
-
-#### Week 9 - Week 10
-
-- Cross-check if all the implemented functionalities are what is required for the project. 
-- This will ensure I have worked towards implementing all of required the `sources` from SunPy and overplotting them with the required `field lines` from PfssPy.
+- If any new requirements are requested by the mentors, they shall be implemented during these weeks and the testing of the new code as well.
 - I have already implemented some starter code for plotting field lines from a given `gong_map` [here.](https://github.com/jeffreypaul15/Sunpy3D/blob/master/pfss.py)
 ![image](https://user-images.githubusercontent.com/50923538/112165572-dffbfc80-8c14-11eb-9dd9-9eb3937607fa.png)
-- By now all of the required coordinate objects from Astropy and 2D functionality from SunPy shall be properly implemented with the appropriate tests.
-- If any new requirements are requested by the mentors, they shall be implemented during these weeks and the testing of the new code as well.
+
+#### Week 10
+- Cross-check if all the implemented functionalities are what is required for the project. 
+- By now all of the required coordinate objects from AstroPy and 2D functionality from SunPy shall be properly implemented with the appropriate tests.
+- This will ensure I have worked towards implementing all of required the `sources` from SunPy and over-plotting them with the required `field lines` from PfssPy.
 - The documentation and docstrings shall again be tested with the complete implementation of all the `.rst` files and indexed according to what is required.
-- If other tests have to be performed, I shall implement this during this time.
 - The entire package would have been set up in PyPi and a few demo examples would also be listed out here.
 ___
 
@@ -198,7 +181,7 @@ ___
 ### Open Source background and Programming experience
 
 - Programming Languages: Python, Java, C, JavaScript, Dart (Basic)
-- My Contributions to SunPy include 9 merged and 3 WIP repositories and some important ones are :
+-  As of writing this proposal, my contributions to SunPy include 10 merged and 3 WIP PRs. I have mainly worked with writing various tests and visualization for SunPy. I also spent quite a bit of time understanding the coordinate systems from a gallery example [PR](https://github.com/sunpy/sunpy/pull/5121).  Besides that, some important PRs are :
 -  [Added draw_quadrangle method](https://github.com/sunpy/sunpy/pull/4809) [visualization]
 -  [Added STEREO/SECCHI client](https://github.com/sunpy/sunpy/pull/4869)
 -  [Added dynamic z axis option](https://github.com/sunpy/sunpy/pull/5025) [visualization]
@@ -207,7 +190,9 @@ ___
 
 I have enjoyed contributing to SunPy and will continue to do so regardless of GSoC. 
 I have worked with Python as a primary programming language as I have spent over 2 years working, researching, and developing in the field of Artificial Intelligence.
-I have worked as an intern at 3 separate AI-based companies and have worked majorly with Python. Solar Physics has gained my interest from my contributions to SunPy and from then on I have explored the visualization of SunPy with AstroPy.
+I have quite a bit of experience with Hackathons and won [Smart India Hackathon](https://www.sih.gov.in/sih2020) 2020 for Student Innovation  category, where I focused predominantly on AI and the efficient use of Python. Besides this, I also was part of a team that placed top 5 in SAP Semicolon Nationals in 2019 and 2020.
+I have worked as a full-time intern at 3 separate AI-based companies with.
+Solar Physics has gained my interest from my contributions to SunPy and from then on I have explored the visualization of SunPy with AstroPy.
 
 ## GSoC
 
