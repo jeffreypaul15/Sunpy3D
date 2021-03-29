@@ -146,7 +146,7 @@ ___
 - Conduct a manual test of the documentation of the package so far and continue working on the documentation alongside the code ensuring accurate documentation.
 - Major bugs (if any) would be resolved by now and a considerable amount of time shall be devoted to testing all of the small implementations.
 - If any new requirements are requested by the mentors, they shall be implemented during these weeks and the testing of the new code as well.
-- I have already implemented some starter code for plotting field lines from a given `gong_map` [here.](https://github.com/jeffreypaul15/Sunpy3D/blob/master/pfss.py)
+- I have already implemented some starter code for plotting field lines from a given `gong_map`.
 ![image](https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/112165572-dffbfc80-8c14-11eb-9dd9-9eb3937607fa.png)
 
 #### Week 10
