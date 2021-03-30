@@ -62,9 +62,8 @@ The entire project is split into 3 major components which include:-
 
 ### Timeline and Weekly Deliverables
 
-### Further understanding of the deliverables.
-
-![image](https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/112889241-03321a80-90f3-11eb-8f16-ad2f54b12b8d.png)
+### Further understanding of the deliverables
+https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/Pic.png
 #### Community Bonding Period
 
 ___
@@ -205,9 +204,7 @@ No, I will only be applying to SunPy.
 ### Commitments
 
 I study at university which takes about 7-8 hours of my day and my academic load is very less.
-
 I am open to working full time **~18-20 hours per week** and can work more if required.
-
 I don't have any plans for the Summer and I will be fully focusing on contribution and GSoC with SunPy.
 
  
