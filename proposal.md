@@ -62,7 +62,8 @@ The entire project is split into 3 major components which include:-
 
 ### Timeline and Weekly Deliverables
 
-![image](https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/112889241-03321a80-90f3-11eb-8f16-ad2f54b12b8d.png)
+![image](https://user-images.githubusercontent.com/50923538/113209478-bedc8100-9290-11eb-86a6-9522aaf68ebc.png)
+
 
 ### Further understanding of the deliverables
 #### Community Bonding Period
