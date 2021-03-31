@@ -113,7 +113,7 @@ ___
 
 - Continue working towards adding the existing methods of SunPy's `GenericMap` to 3D.
 - I have implemented a few 2D plotting functionalities such as `draw_grid` and `draw_limb`.
-![image](https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/112277482-cce63c80-8ca7-11eb-8163-35adaa2b8830.png)
+![image](https://raw.githubusercontent.com/jeffreypaul15/Sunpy3D/master/screenshots/112277482-cce63c80-8ca7-11eb-8163-35adaa2b8830.png)
 - Ensuring the extensions are done appropriately with careful comparison from the 2D plots and appropriate tests.
 - Research on grid plotting with `WCS axes` in 3D and also research on `clip_interval` of for `vmin/vmax` set-up of the required 3D plots.
 - Implementation the plotting coordinates of various `Astropy` units and also drawing of `Great Arc` and `heliographic longitude and latitude lines` in 3D.
@@ -148,7 +148,7 @@ ___
 - Major bugs (if any) would be resolved by now and a considerable amount of time shall be devoted to testing all of the small implementations.
 - If any new requirements are requested by the mentors, they shall be implemented during these weeks and the testing of the new code as well.
 - I have already implemented some starter code for plotting field lines from a given `gong_map`.
-![image](https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/112165572-dffbfc80-8c14-11eb-9dd9-9eb3937607fa.png)
+![image](https://raw.githubusercontent.com/jeffreypaul15/Sunpy3D/master/screenshots/112165572-dffbfc80-8c14-11eb-9dd9-9eb3937607fa.png)
 
 #### Week 10
 - Cross-check if all the implemented functionalities are what is required for the project. 
