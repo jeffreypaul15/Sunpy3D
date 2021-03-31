@@ -141,7 +141,7 @@ ___
 - Work on rotating the initial 3D plot with understanding of `cpos` with `GenericMap` rotation.
 - Begin work on adding code for plotting AstroPy coordinate objects.
 - If other tests have to be performed, I shall implement this during this time.
-- Recreate `MapSequenceAnimator` as `gifs` with `PyVista` 
+- Recreate `MapSequenceAnimator` as `gifs` with `PyVista`.
 
 #### Week 9
 - The `Tox` environment shall be completely set up and all the tests shall be integrated accordingly.
@@ -154,7 +154,7 @@ ___
 #### Week 10
 - Cross-check if all the implemented functionalities are what is required for the project. 
 - By now all of the required coordinate objects from AstroPy and 2D functionality from SunPy shall be properly implemented with the appropriate tests.
-- This will ensure I have worked towards implementing all of required the `sources` from SunPy and over-plotting them with the required `field lines` from PfssPy.
+- This will ensure I have worked towards implementing all of the required `sources` from SunPy and over-plotting them with the required `field lines` from PfssPy.
 - The documentation and docstrings shall again be tested with the complete implementation of all the `.rst` files and indexed according to what is required.
 - The entire package would have been set up in PyPi and a few demo examples would also be listed out here.
 ___
