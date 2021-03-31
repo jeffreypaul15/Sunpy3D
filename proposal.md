@@ -30,7 +30,7 @@ The entire project is split into 3 major components which include:-
 
 
 #### 1) Extending Functionality
-- The existing code makes use of PyVista for 3D plotting functionality and all of the code for 3D plotting would make use of PyVista itself. Currently, there exists simple functionality for plotting any given `GenericMap` from SunPy to be plotted using Pyvista and this will be the baseline from where I would pick up on.
+- The existing code makes use of PyVista for 3D plotting functionality and all of the code for 3D plotting would make use of PyVista itself. Currently, there exists simple functionality for plotting any given `GenericMap` from SunPy to be plotted using PyVista and this will be the baseline from where I would pick up on.
 - As stated by the requirements, moajority of the functionality of a 2D `GenericMap` from SunPy shall be implemented in 3D. It would include the extensions of all the available plotting mechanisms with the approptiate `AstroPy` units.
 - The 3D PFSS field lines from Pfsspy shall also be implemented and tested carefully.
 - The underlying packages for 3D plotting would have to be listed out and this has to be carefully tested with different versions of the packages to make sure that this works with SunPy.
@@ -46,7 +46,7 @@ The entire project is split into 3 major components which include:-
 	- Example Gallery
 	- Contribution and release history.
 - Sphinx's **Autodoc** allows the extensive documentation of classes and functions which makes use of the well-written docstrings in Python to create the required documentation. Therefore relevant docstrings are to be written that highlight the usage of every class and method with its required parameters and function.
-- Gallery Examples shall also be written according to the added code depending on how Sphinx interacts with Pyvista.
+- Gallery Examples shall also be written according to the added code depending on how Sphinx interacts with PyVista.
 
   
 
@@ -60,7 +60,7 @@ The entire project is split into 3 major components which include:-
   
   
 
-### Timeline and Weekly Deliverables
+## Timeline and Weekly Deliverables
 
 ![image](https://user-images.githubusercontent.com/50923538/113209478-bedc8100-9290-11eb-86a6-9522aaf68ebc.png)
 
@@ -116,7 +116,7 @@ ___
 - I have implemented a few 2D plotting functionalities such as `draw_grid` and `draw_limb`.
 ![image](https://raw.githubusercontent.com/jeffreypaul15/Sunpy3D/master/screenshots/112277482-cce63c80-8ca7-11eb-8163-35adaa2b8830.png)
 - Ensuring the extensions are done appropriately with careful comparison from the 2D plots and appropriate tests.
-- Research on grid plotting with `WCS axes` in 3D and also research on `clip_interval` of for `vmin/vmax` set-up of the required 3D plots.
+- Research on grid plotting with `WCS axes` in 3D and also research on `clip_interval` for `vmin/vmax` set-up of the required 3D plots.
 - Implementation the plotting coordinates of various `Astropy` units and also drawing of `Great Arc` and `heliographic longitude and latitude lines` in 3D.
 
  ___
@@ -128,7 +128,7 @@ ___
 #### Week 7
 - This entire week shall be used as a buffer week, to ensure that the above listed deliverables from week 1-6 are correctly set up.
 - Continue working on the extension `MapSequenceAnimator` to `3D gifs`.
-- Begin the writing the documentation of the correctly implemented methods according to the evaluation. 
+- Begin writing the documentation of the correctly implemented methods according to the evaluation. 
 - The examples of all the created methods shall be loaded into a gallery for Sphinx to create a `minigallery` for display in the documentation.
 - The required 3D testing methodology would have been extensively researched upon and a solid conclusion would be reached.
 - Allot some time for bug-fixes of any major bugs that may arise during the implementation of the 3D plotting as well as the testing and documentation structure.
@@ -213,4 +213,4 @@ I don't have any plans for the Summer and I will be fully focusing on contributi
  
 ### Eligibility
 
-Yes, I am eligible to receive payments from Google. For any queries or further explanations, feel free to contact me at jeffrey.paul2000@gmail.com
+Yes, I am eligible to receive payments from Google. For any queries or further explanations, feel free to contact me at jeffrey.paul2000@gmail.com.
