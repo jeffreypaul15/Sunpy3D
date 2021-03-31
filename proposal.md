@@ -180,7 +180,7 @@ ___
 ### Open Source background and Programming experience
 
 - Programming Languages: Python, Java, C, JavaScript, Dart (Basic)
--  As of writing this proposal, my contributions to SunPy include 11 merged and 3 WIP PRs. I have mainly worked with writing various tests and visualization for SunPy. I also spent quite a bit of time understanding the coordinate systems from a gallery example [PR](https://github.com/sunpy/sunpy/pull/5121).  Besides that, some important PRs are :
+-  As of writing this proposal, my contributions to SunPy include **11 merged** and **3 WIP PRs**. I have mainly worked with writing various tests and visualization for SunPy. I also spent quite a bit of time understanding the coordinate systems from a gallery example [PR](https://github.com/sunpy/sunpy/pull/5121).  Besides that, some important PRs are :
 -  [Added draw_quadrangle method](https://github.com/sunpy/sunpy/pull/4809) [visualization]
 -  [Added STEREO/SECCHI client](https://github.com/sunpy/sunpy/pull/4869)
 -  [Added dynamic z axis option](https://github.com/sunpy/sunpy/pull/5025) [visualization]
