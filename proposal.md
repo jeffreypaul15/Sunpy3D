@@ -11,7 +11,7 @@
 
 My open-source journey began with SunPy about 4 months ago, I enjoyed having to look at the visualization capabilities of SunPy and developed a keen interest in visualization while exploring the package and attempting to solve its issues. The efficient usage of python and purposeful open source contribution was the main drive for me.
 
-I have worked with Python as my primary programming language for over 3 years now and have a strong understanding of Python and Pyvista while contributing to SunPy continued to make me better at it.
+I have worked with Python as my primary programming language for over 3 years now and have a strong understanding of it and Pyvista while contributing to SunPy has made me better at it.
 
 I have been involved with contributing towards and understanding SunPy with its underlying libraries for about 4 months now which excites and gives me the confidence that I shall be able to complete the given project successfully and according to the required standards.
 
@@ -37,7 +37,7 @@ The entire project is split into 3 major components which include:-
 - There are no bounds defined for 3D plotting capability and adding extra functionality for plotting Astropy's coordinates shall also be implemented.
 
 #### 2) Extensive documentation
-- As of SunPy standards, documentation is extremely important. The entire documentation process shall be written using **Sphinx** as SunPy uses it and I've worked with it extensively before.
+- As per SunPy standards, documentation is extremely important. The entire documentation process shall be written using **Sphinx** as SunPy uses it and I've worked with it extensively before.
 - Required documentation is a general order from writing the Index file followed by
 	- Introduction
 	- Installation
@@ -55,21 +55,22 @@ The entire project is split into 3 major components which include:-
 - The entire project shall be tested efficiently wherever necessary.
 - Testing shall mainly be performed with **Tox** integrated with Pytest. The project shall be set up using tox according to SunPy's requirements.
 - The appropriate 3D testing methodology shall also be researched and decided on.
-- Once tested, benchmark tests shall also be performed to understand the computation required for vizualisation.
+- Once tested, benchmark tests shall also be performed to understand the computation required for visualization.
 
   
   
 
 ### Timeline and Weekly Deliverables
 
+![image](https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/112889241-03321a80-90f3-11eb-8f16-ad2f54b12b8d.png)
+
 ### Further understanding of the deliverables
-https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/Pic.png
 #### Community Bonding Period
 
 ___
 
 #### Week 1  
-- I shall get familiar with the working of Sphinx and producing doctest with Sphinx,.
+- I shall get familiar with the working of Sphinx and producing doctest with Sphinx.
 - Understand the extent of PyVista's capabilities.
 - Rendering of the 3D plots correctly for generating 2D images.
 #### Week 2
@@ -94,6 +95,7 @@ ___
 
 - From here on, I shall focus on the extension of the various 2D plotting functionalities into 3D from SunPy.
 - I have extended `draw_quadrangle` from SunPy's `GenericMap` to 3D as I had worked on implementing this in 2D for SunPy itself. An example of correctly rendered 2D plot with the right `cpos` :
+
 ![image](https://user-images.githubusercontent.com/50923538/112890316-5bb5e780-90f4-11eb-9a07-2aa418232669.png)
 
 - Research on transformation of coordinate frames to correctly implement `GenericMaps` in 3D.
@@ -123,13 +125,13 @@ ___
 ___
 
 #### Week 7
-- This entire week I shall use as  buffer week, to ensure that the above listed deliverables from week 1-6 are correctly set up.
+- This entire week shall be used as a buffer week, to ensure that the above listed deliverables from week 1-6 are correctly set up.
 - Continue working on the extension `MapSequenceAnimator` to `3D gifs`.
 - Begin the writing the documentation of the correctly implemented methods according to the evaluation. 
 - The examples of all the created methods shall be loaded into a gallery for Sphinx to create a `minigallery` for display in the documentation.
 - The required 3D testing methodology would have been extensively researched upon and a solid conclusion would be reached.
 - Allot some time for bug-fixes of any major bugs that may arise during the implementation of the 3D plotting as well as the testing and documentation structure.
-- The number of tests to run shall be decided after discussing with the mentors.
+- The number of tests to be run shall be decided after discussing with the mentors.
 
 
 #### Week 8
@@ -137,15 +139,15 @@ ___
 - Over-plotting and aligning maps using transparency from `PyVista`.
 - Work on rotating the initial 3D plot with understanding of `cpos` with `GenericMap` rotation.
 - Begin work on adding code for plotting AstroPy coordinate objects.
--  If other tests have to be performed, I shall implement this during this time.
-- - Recreate `MapSequenceAnimator` as `gifs` with `PyVista` 
+- If other tests have to be performed, I shall implement this during this time.
+- Recreate `MapSequenceAnimator` as `gifs` with `PyVista` 
 
 #### Week 9
 - The `Tox` environment shall be completely set up and all the tests shall be integrated accordingly.
 - Conduct a manual test of the documentation of the package so far and continue working on the documentation alongside the code ensuring accurate documentation.
 - Major bugs (if any) would be resolved by now and a considerable amount of time shall be devoted to testing all of the small implementations.
 - If any new requirements are requested by the mentors, they shall be implemented during these weeks and the testing of the new code as well.
-- I have already implemented some starter code for plotting field lines from a given `gong_map` [here](https://github.com/jeffreypaul15/Sunpy3D/blob/master/pfss.py).
+- I have already implemented some starter code for plotting field lines from a given `gong_map`.
 ![image](https://github.com/jeffreypaul15/Sunpy3D/blob/master/screenshots/112165572-dffbfc80-8c14-11eb-9dd9-9eb3937607fa.png)
 
 #### Week 10
@@ -177,7 +179,7 @@ ___
 ### Open Source background and Programming experience
 
 - Programming Languages: Python, Java, C, JavaScript, Dart (Basic)
--  As of writing this proposal, my contributions to SunPy include 10 merged and 3 WIP PRs. I have mainly worked with writing various tests and visualization for SunPy. I also spent quite a bit of time understanding the coordinate systems from a gallery example [PR](https://github.com/sunpy/sunpy/pull/5121).  Besides that, some important PRs are :
+-  As of writing this proposal, my contributions to SunPy include 11 merged and 3 WIP PRs. I have mainly worked with writing various tests and visualization for SunPy. I also spent quite a bit of time understanding the coordinate systems from a gallery example [PR](https://github.com/sunpy/sunpy/pull/5121).  Besides that, some important PRs are :
 -  [Added draw_quadrangle method](https://github.com/sunpy/sunpy/pull/4809) [visualization]
 -  [Added STEREO/SECCHI client](https://github.com/sunpy/sunpy/pull/4869)
 -  [Added dynamic z axis option](https://github.com/sunpy/sunpy/pull/5025) [visualization]
@@ -186,8 +188,8 @@ ___
 
 I have enjoyed contributing to SunPy and will continue to do so regardless of GSoC. 
 I have worked with Python as a primary programming language as I have spent over 2 years working, researching, and developing in the field of Artificial Intelligence.
-I have quite a bit of experience with Hackathons and won [Smart India Hackathon](https://www.sih.gov.in/sih2020) 2020 for Student Innovation  category, where I focused predominantly on AI and the efficient use of Python. Besides this, I also was part of a team that placed top 5 in SAP Semicolon Nationals in 2019 and 2020.
-I have worked as a full-time intern at 3 separate AI-based companies with.
+I have quite a bit of experience with Hackathons and won [Smart India Hackathon](https://www.sih.gov.in/sih2020) 2020 for Student Innovation  category, where I focused predominantly on AI and the efficient use of Python. Besides this, I also was part of a team that placed top 4 in SAP Semicolon Nationals in 2019 and 2020.
+I have worked as a full-time intern at 3 separate AI-based companies.
 Solar Physics has gained my interest from my contributions to SunPy and from then on I have explored the visualization of SunPy with AstroPy.
 
 ## GSoC
