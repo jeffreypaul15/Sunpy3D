@@ -104,38 +104,3 @@ def draw_rectangles(mas, bottom_left, *, width: u.deg = None, height: u.deg = No
     quad = Rect(mas._get_lon_lat(bottom_left), width, height, **kwergs)    
     corners = convert_to_Skycoord(mas, quad)
     return corners
-
-# def draw_rectangle(mas, bottom_left, *, width: u.deg = None, height: u.deg = None,
-#                        axes=None, top_right=None, **kwargs):
-#         bottom_left, top_right = get_rectangle_coordinates(bottom_left,
-#                                                            top_right=top_right,
-#                                                            width=width,
-#                                                            height=height)
-
-#         bottom_left = bottom_left.transform_to(mas.coordinate_frame)
-#         top_right = top_right.transform_to(mas.coordinate_frame)
-
-#         width = Longitude(top_right.spherical.lon - bottom_left.spherical.lon)
-#         height = top_right.spherical.lat - bottom_left.spherical.lat
-
-#         if not axes:
-#             axes = plt.gca()
-#         if wcsaxes_compat.is_wcsaxes(axes):
-#             axes_unit = u.deg
-#         else:
-#             axes_unit = mas.spatial_units[0]
-
-#         bottom_left = u.Quantity(mas._get_lon_lat(bottom_left), unit=axes_unit).value
-
-#         width = width.to(axes_unit).value
-#         height = height.to(axes_unit).value
-#         kwergs = {'transform': wcsaxes_compat.get_world_transform(axes),
-#                   'edgecolor': 'white',
-#                   'fill': False}
-#         kwergs.update(kwargs)
-#         rect = plt.Rectangle(bottom_left, width, height, **kwergs)
-
-
-        # print(rect.get_bbox())
-        # axes.add_patch(rect)
-        # return [rect]
