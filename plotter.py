@@ -57,6 +57,7 @@ class PyVistaPlotter:
         nodes = self.draw.create_map(m)
         grid = pv.StructuredGrid()
         grid.points = nodes
+        print(grid.points)
         grid.dimensions = [m.data.shape[0] + 1,
                            m.data.shape[1] + 1,
                            1]
@@ -77,6 +78,7 @@ class PyVistaPlotter:
         cmap = kwargs.pop('cmap', m.cmap)
         mesh = self._pyvista_mesh(m)
         self.plotter.add_mesh(mesh, cmap=cmap, **kwargs)
+        return mesh
 
     def plot_quadrangle(self, m, **kwargs):
         """
@@ -87,6 +89,7 @@ class PyVistaPlotter:
         coords -= 0.001
         mesh = pv.StructuredGrid(coords[:, 0], coords[:, 1], coords[:, 2])
         self.plotter.add_mesh(mesh, color='lightblue', line_width=2.0)
+        return mesh
 
     def plot_line(self, coords, **kwargs):
         """
@@ -103,6 +106,7 @@ class PyVistaPlotter:
         points = self._coords_to_xyz(coords)
         spline = pv.Spline(points)
         self.plotter.add_mesh(spline, **kwargs)
+        return spline
 
     def plot_solar_axis(self, length=2.5, arrow_kwargs={}, **kwargs):
         """
@@ -127,6 +131,7 @@ class PyVistaPlotter:
                          scale='auto',
                          **defaults)
         self.plotter.add_mesh(arrow, **kwargs)
+        return arrow
         
         
 """
@@ -148,7 +153,16 @@ from quadrangle import Draw
 m = Map(AIA_193_IMAGE)
 m.plot()
 plotter = PyVistaPlotter()
-plotter.plot_map(m)
-plotter.plot_quadrangle(m)
+map_mesh = plotter.plot_map(m)
+line_mesh = plotter.plot_solar_axis()
+quad_mesh = plotter.plot_quadrangle(m)
+# combined_mesh = map_mesh + quad_mesh
 
-plotter.show(cpos=(-100,0,0), screenshot="quad.png")
+blocks = pv.MultiBlock([line_mesh])
+merged = blocks.combine()
+# merged
+pv.save_meshio('/home/jeffrey/jupy/tmp.vtk', merged)
+plotter = pv.Plotter()
+plotter.add_mesh(merged)
+plotter.show()
+# plotter.show(cpos=(-100,0,0), screenshot="quad.png")
