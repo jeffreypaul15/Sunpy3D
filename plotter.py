@@ -146,11 +146,11 @@ import astropy.constants as const
 import astropy.units as u
 from astropy.coordinates import SkyCoord
 import matplotlib.pyplot as plt
-from sunpy.data.sample import AIA_193_IMAGE
+from sunpy.data.sample import AIA_335_IMAGE
 from sunpy.map import Map
 from quadrangle import Draw
 
-m = Map(AIA_193_IMAGE)
+m = Map(AIA_335_IMAGE)
 m.plot()
 plotter = PyVistaPlotter()
 map_mesh = plotter.plot_map(m)
@@ -158,11 +158,11 @@ line_mesh = plotter.plot_solar_axis()
 quad_mesh = plotter.plot_quadrangle(m)
 # combined_mesh = map_mesh + quad_mesh
 
-blocks = pv.MultiBlock([line_mesh])
-merged = blocks.combine()
-# merged
-pv.save_meshio('/home/jeffrey/jupy/tmp.vtk', merged)
-plotter = pv.Plotter()
-plotter.add_mesh(merged)
+# blocks = pv.MultiBlock([line_mesh])
+# merged = blocks.combine()
+# # merged
+# pv.save_meshio('/home/jeffrey/jupy/tmp.vtk', merged)
+# plotter = pv.Plotter()
+# plotter.add_mesh(merged)
 plotter.show()
 # plotter.show(cpos=(-100,0,0), screenshot="quad.png")
