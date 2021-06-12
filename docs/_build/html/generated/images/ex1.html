@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Seaborn example &#8212; Sunpy3D 0.0.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/bootstrap-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/plot_directive.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/gallery-rendered-html.css" />
+    <link rel="stylesheet" href="../../_static/sunpy_style.css" type="text/css" />
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+<script type="text/javascript" src="../../_static/copybutton.js"></script>
+<script type="text/javascript" src="../../_static/version.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon-32.ico"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js "></script>
+<script type="text/javascript" src="../../_static/js/jquery-fix.js "></script>
+<script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js "></script>
+<script type="text/javascript" src="../../_static/bootstrap-sphinx.js "></script>
+
+<!-- Facebook OpenGraph -->
+<meta property="og:title" content="Seaborn example" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/generated/images/ex1.html" />
+<meta property="og:image" content="/_static/sunpy_icon_128x128.png" />
+<meta property="og:description" content="" />
+<meta property="og:site_name" content="Sunpy3D 0.0.1 documentation" />
+
+<meta name="robots" content="noindex, nofollow">
+
+  </head><body>
+
+<div id="navbar"
+  class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://sunpy.org/">
+        Sunpy3D</a>
+    </div>
+
+    <div class="collapse navbar-collapse nav-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        
+        
+        <li class="dropdown">
+          <a role="button" data-toggle="dropdown" data-target="" href="">About<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+              <a href="../../about.html">Our Mission</a></li>
+            <li class="dropdown-submenu">
+              <a href="../../about.html">Acknowledge SunPy</a></li>
+            <li class="dropdown-submenu">
+              <a href="../../coc.html">Code of Conduct</a></li>
+          </ul>
+        </li>
+        
+        
+        <li class="dropdown">
+          <a role="button" data-toggle="dropdown" data-target="" href="">Documentation<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+              <a href="https://docs.sunpy.org/en/stable/">sunpy</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://docs.sunpy.org/projects/ndcube/">ndcube</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://docs.sunpy.org/projects/drms/">drms</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://aiapy.readthedocs.io/en/stable/">aiapy</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://pfsspy.readthedocs.io/en/stable/">pfsspy</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://docs.sunpy.org/projects/sunraster/en/stable/">sunraster</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://docs.sunpy.org/projects/sunkit-instruments/en/stable/">sunkit-instruments</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://docs.sunpy.org/projects/sunkit-image/en/stable/">sunkit-image</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://docs.sunpy.org/projects/radiospectra/en/stable/">radiospectra</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://pyflct.readthedocs.io/en/stable/">pyflct</a></li>
+            <li class="dropdown-submenu">
+              <a href="https://ablog.readthedocs.io/">ablog</a></li>
+          </ul>
+        </li>
+        
+        
+        <li><a href="../../blog.html">Blog</a></li>
+        
+        
+        <li><a href="../../contribute.html">Support Us</a></li>
+        
+        
+        <li><a href="../../help.html">Get Help</a></li>
+        
+        
+        <li class="dropdown">
+          <a role="button" data-toggle="dropdown" data-target="" href="">SunPy Project<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+              <a href="../../project/">SunPy Project</a></li>
+            <li class="dropdown-submenu">
+              <a href="../../project/roles.html">Community Roles</a></li>
+            <li class="dropdown-submenu">
+              <a href="../../project/affiliated.html">Affiliated Packages</a></li>
+            <li class="dropdown-submenu">
+              <a href="../../project/former.html">Emeritus role holders</a></li>
+          </ul>
+        </li>
+        
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary">
+
+
+  
+
+
+
+
+
+<div class="sidenologo"></div>
+
+<p class="doc-title">
+    <a style="padding-left: 0" href="../../index.html">Sunpy3D 0.0.1</a>
+</p>
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+    <div class="form-group">
+        <label>
+            <input type="text" name="q" class="form-control" placeholder="Search" />
+        </label>
+    </div>
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+</form>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../introduction.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tutorial.html">Tutorial</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Example Gallery</a></li>
+</ul>
+
+
+        </div>
+      </div>
+    <div class="body col-md-9 content" role="main">
+      
+  <div class="sphx-glr-download-link-note admonition note">
+<p class="admonition-title">Note</p>
+<p>Click <a class="reference internal" href="#sphx-glr-download-generated-images-ex1-py"><span class="std std-ref">here</span></a>
+to download the full example code</p>
+</div>
+<section class="sphx-glr-example-title" id="seaborn-example">
+<span id="sphx-glr-generated-images-ex1-py"></span><h1>Seaborn example<a class="headerlink" href="#seaborn-example" title="Permalink to this headline">¶</a></h1>
+<p>This example demonstrates a Seaborn plot. Figures produced Matplotlib <strong>and</strong>
+by any package that is based on Matplotlib (e.g., Seaborn), will be</p>
+<img alt="ex1" class="sphx-glr-single-img" src="../../_images/sphx_glr_ex1_001.png" />
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>[(1.659110992826297, 1.159110992826297, 1.159110992826297),
+ (0.5, 0.0, 0.0),
+ (0.0, 0.0, 1.0)]
+</pre></div>
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Author: Michael Waskom &amp; Lucy Liu</span>
+<span class="c1"># License: BSD 3 clause</span>
+
+<span class="kn">import</span> <span class="nn">pyvista</span> <span class="k">as</span> <span class="nn">pv</span>
+
+
+<span class="n">p</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">Plotter</span><span class="p">()</span>
+<span class="n">arrow</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">Arrow</span><span class="p">()</span>
+<span class="n">p</span><span class="o">.</span><span class="n">add_mesh</span><span class="p">(</span><span class="n">arrow</span><span class="p">)</span>
+<span class="n">p</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  0.325 seconds)</p>
+<div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-generated-images-ex1-py">
+<div class="sphx-glr-download sphx-glr-download-python docutils container">
+<p><a class="reference download internal" download="" href="../../_downloads/08ab0a3bf9ee816f999602d38b9f17d0/ex1.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">ex1.py</span></code></a></p>
+</div>
+<div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
+<p><a class="reference download internal" download="" href="../../_downloads/7e9572282ac42663e5e03957872d9be8/ex1.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">ex1.ipynb</span></code></a></p>
+</div>
+</div>
+<p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
+</section>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="left-footer">
+            <p>
+                &copy; 2021, Jeffrey Paul 
+                
+            </p>
+        </div>
+        <div class="right-footer">
+            Built with <a href="http://sphinx-doc.org/">Sphinx
+                4.0.2.</a>
+        </div>
+        <div class="center-footer ">
+            
+            <a href="https://github.com/sunpy/sunpy">Github</a>
+            
+            <span> • </span>
+            
+            <a href="https://twitter.com/SunPyProject">Twitter</a>
+            
+            <span> • </span>
+            
+            <a href="https://app.element.io/#/room/#sunpy:openastronomy.org">Matrix</a>
+            
+            
+        </div>
+    </div>
+</footer>
+  </body>
+</html>
